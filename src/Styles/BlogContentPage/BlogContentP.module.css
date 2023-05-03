@@ -1,0 +1,42 @@
+.Allparent {
+  width: 100%;
+  margin-top: 7rem;
+  position: relative;
+  /* background-image: url('../.././Images/BlogContent/BG\ \(1\).svg'); */
+  background-size: 100%;
+}
+.Allparent * {
+  font-family: "Poppins";
+}
+
+.parent {
+  padding: 16% 10%;
+}
+.Allparent img:nth-child(3) {
+  display: none;
+}
+
+@media (max-width: 500px) {
+  .Allparent {
+    margin-top: 0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../../Images/BlogContent/IMG (3).png");
+    background-size: cover;
+    height: 55vh;
+  }
+  .Allparent img:nth-child(2) {
+    display: none;
+  }
+  
+  .Allparent img:nth-child(3) {
+    display: block;
+  }
+
+
+  .parent {
+    padding: 16% 0%;
+    margin-top: 3rem;
+  }
+}
